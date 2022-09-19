@@ -13,6 +13,6 @@ sha256sums=('SKIP')
 
 package() {
     cd "$pkgname"
-    install -d "${pkgdir}/etc/skel/.config/edges/"
-    install -Dm 644 "edges.conf" "${pkgdir}/etc/skel/.config/edges/edges.conf"
+    install -d "${pkgdir}/etc/skel/.config/"
+    install -Dm 644 "edges.conf" "${pkgdir}/etc/skel/.config/edges.conf"
 }
